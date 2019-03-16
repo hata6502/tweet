@@ -14,19 +14,19 @@ $ echo "This is tweet command test. " | tweet
 # git clone https://github.com/Hato6502/tweet
 ```
 
-1. Composer で依存パッケージをインストールします。
+2. Composer で依存パッケージをインストールします。
 ```
 # cd tweet
 # composer install
 ```
 
-1. Twitter API の設定をします。
+3. Twitter API の設定をします。
 ```
 # mv config.php.example config.php
 # nano config.php
 ```
 
-1. コマンドのシンボリックシンクを張ります。
+4. コマンドのシンボリックシンクを張ります。
 ```
 # cd /usr/local/bin
 # ln -s /usr/local/src/tweet/tweet
