@@ -1,0 +1,12 @@
+{
+    "name": "bluehood/tweet",
+    "authors": [
+        {
+            "name": "hato6502",
+            "email": "erisuke12345@yahoo.co.jp"
+        }
+    ],
+    "require": {
+        "abraham/twitteroauth": "^1.0"
+    }
+}
